@@ -11,6 +11,7 @@
   </script>
     <!--Google Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bellefair|Roboto" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <title>katieking.io</title>
   <link href="styles.css" rel="stylesheet" type="text/css">
  </head>
@@ -18,44 +19,83 @@
    <header>
      <h1>katieking.io</h1>
      <h2>a portfolio</h2>
-     <nav>
-       <a href="#projects">projects</a> | <a href="#next">current</a> | <a href="#about">about</a> | <a href="https://github.com/keking71">github</a> | <a href="https://codepen.io/keking">codepen</a>
+     <nav class="half-width">
+       <a href="#projects">projects</a>
+       <a href="#next">current</a>
+       <a href="#about">about</a>
+       <a href="https://github.com/keking71">github</a>
+       <a href="https://codepen.io/keking">codepen</a>
      </nav>
   </header>
   <section id="projects">
-    <h2>the stuff you came for</h2>
-    <div class="project-box">
-      <p>
-        <strong>project: katieking.io</strong>
-      </p>
-      <p>timeline: early 2018</p>
-      <p>
-        <a href="http://katieking.io" alt="katieking.io">katieking.io</a>
-      </p>
-      <p>
-        what i've learned:
-        <ul>
-          <li>flexbox</li>
-          <li>sftp through terminal</li>
-          <li>GitHub</li>
-        </ul>
-      </p>
-    </div>
+      <div class="flex">
+        <div class="project-box quarter-width">
+          <h3><strong>project: katieking.io</strong></h3>
+          <p>timeline: early 2018</p>
+          <p>
+            <a href="http://katieking.io" alt="katieking.io">katieking.io</a>
+          </p>
+          <p>
+            what i've learned:
+            <ul>
+              <li>flexbox</li>
+              <li>sftp through terminal</li>
+              <li>media queries</li>
+              <li>GitHub</li>
+            </ul>
+          </p>
+        </div>
+        <div class="project-box quarter-width">
+          <h3><strong>project: test</strong></h3>
+          <p>timeline: early 2018</p>
+          <p>
+            <a href="#" alt="#">link</a>
+          </p>
+          <p>
+            what i've learned:
+            <ul>
+              <li>i'm</li>
+              <li>sure</li>
+              <li>there</li>
+              <li>was</li>
+              <li>something</li>
+            </ul>
+          </p>
+        </div>
+        <div class="half-width lt-purple">
+          <h2 style="display:flex;justify-content:center;margin:14% 0px;">the stuff you came for</h2>
+        </div>
+      </div>
   </section>
   <section id="next">
-    <h2>what i'm up to</h2>
-    <ul>
-      <li>my portfolio site a.k.a. where you are right now</li>
-      <li>building out my GitHub portfolio - should this be in there?</li>
-      <li>Udacity's Grow with Google Web Developer Challenge</li>
-    </ul>
+    <div class="flex">
+      <div class="half-width md-purple">
+        <h2 style="display:flex;justify-content:center;margin:5% 0px;">what i'm up to</h2>
+      </div>
+      <div class="half-width in-progress">
+        <ul>
+          <li>my portfolio site a.k.a. where you are right now</li>
+          <li>building out my GitHub portfolio - should this be in there?</li>
+          <li>Udacity's Grow with Google Web Developer Challenge</li>
+        </ul>
+      </div>
+    </div>
   </section>
   <section id="about">
-    <h2>about me</h2>
-    <p>coming soon.</p>
+    <div class="flex">
+      <div class="third-width dk-purple">
+        <h2 style="display:flex;justify-content:center;margin:1% 0px;">about me</h2>
+      </div>
+      <div class="third-width about-me">
+        <p>coming soon.</p>
+      </div>
+      <div class="third-width dk-purple">
+      </div>
+    </div>
   </section>
   <footer>
-    <a href="https://twitter.com/ohh_k8" alt="Twitter">tweet me</a> | <a href="https://www.linkedin.com/in/kaitlinsaxton/" alt="LinkedIn">link up</a>
+    <p><a href="https://twitter.com/ohh_k8" alt="Twitter">tweet me</a> & <a href="https://www.linkedin.com/in/kaitlinsaxton/" alt="LinkedIn">link up</a></p>
+    <p>ya know, made with love.</p>
   </footer>
  </body>
 </html>
