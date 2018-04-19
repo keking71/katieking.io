@@ -9,7 +9,11 @@ strong {font-weight:bold;font-size:inherit;}
 
 h1, h2, h3, h4 {margin:0;}
 
-h1 {font-family:"Abril Fatface",serif;font-size:4.5rem;}
+h1 {color:#e97990;}
+
+h2 {color:white;}
+
+h1 {font-family:"Abril Fatface",serif;font-size:4.5rem;text-shadow:3px 3px 0 #79e9d3;}
 
 h2, h3, h4 {font-family:"Bellefair",serif;}
 h2 {font-size:2.8rem;}
@@ -31,6 +35,7 @@ nav {display:flex;padding:5px 0;margin:15px auto;}
 nav > a {font-size:.8rem;display:flex;justify-content:space-evenly;flex-grow:1;margin:0px 12px;padding:6px;background-color:#b1f4e7;}
 
 .full-width {width:100%;}
+.quarter-miss {width:75%;}
 .half-width {width:50%;}
 .third-width {width:33%;}
 .quarter-width {width:25%;}
@@ -38,15 +43,15 @@ nav > a {font-size:.8rem;display:flex;justify-content:space-evenly;flex-grow:1;m
 .flex {display:flex;}
 
 @media only screen and (max-width:990px){
+  .quarter-miss {width:100%;}
   .half-width {width:100%;}
   .third-width {width:50%;}
   .quarter-width {width:50%;}
 }
 
-.lt-purple {background-color:#a4a5d8;}
-.md-purple {background-color:#6769b1;}
-.dk-purple {background-color:#585aa4;}
+.mint {background-color:#89e1cc;}
 
-.project-box {border:3px solid #a4a5d8;margin-right:1%;padding:8px;}
-.in-progress {border:3px solid #6769b1;margin-left:1%;padding:8px;}
-.about-me {border:3px solid #585aa4;margin:0px 1%;padding:8px;}
+.project-box, .in-progress, .about-me {border:3px solid #67ccb4;padding:8px;}
+
+.project-box, .about-me {margin-right:1%;}
+.in-progress {margin-left:1%;}
